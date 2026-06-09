@@ -180,18 +180,6 @@ my_clustering10 = ee.Clusterer.wekaKMeans(nClusters=10).train(Krabi_sample)
 
 ---
 
-## Exercises
-
-**Part 1**
-- Compare Minimum Distance and Random Forest classifiers on the Krabi land cover task.
-- Vary `numberOfTrees` in the Random Forest and observe the effect on results.
-- Rerun classification with additional spectral bands.
-- Export the final land cover map and create a map layout in QGIS.
-
-**Part 3**
-- Change `nClusters` in the K-Means algorithm and compare outputs.
-- Apply K-Means to the Krabi image to classify Forest, Urban, Water, and Agriculture, then compute overall accuracy with the validation shapefile.
-
 ---
 
 ## Notes
